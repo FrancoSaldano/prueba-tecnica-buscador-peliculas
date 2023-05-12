@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+}
+span{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5%;
+  flex-wrap: nowrap
+}
+span h4,p{
+  margin: 0
+}
+form{
+  display: flex;
+  align-items: center
+}
+ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  gap: 5;
+}
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem
+}
+.grid-responsive{
+  display: grid;
+  width: 70vw;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  gap: 2rem;
+  padding: 0%;
+}
+.grid-responsive img{
+  width: 150%;
+  height: auto;
+  border-radius: 8px;
+  aspect-ratio: 2/3
+}
